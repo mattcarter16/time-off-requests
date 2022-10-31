@@ -7,8 +7,8 @@ on:
       types: [created]        
 
 jobs:
-  Release-solution-ALMLab:
-    uses: ./mattcarter16/time-off-requests/.github/workflows/release-solution-with-inputs.yml
+  Release-solution-TimeOffRequest:
+    uses: ./.github/workflows/release-solution-with-inputs.yml
     with:
       #You can specify the solution name here
       solution_name: TimeOffRequest
