@@ -8,10 +8,10 @@ on:
 
 jobs:
   Release-solution-ALMLab:
-    uses: ./.github/workflows/release-solution-with-inputs.yml
+    uses: ./mattcarter16/time-off-requests/.github/workflows/release-solution-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: TimeOffRequest
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://orge67d055b.crm.dynamics.com/
       PRODUCTION_ENVIRONMENT_URL: https://org876fe060.crm.dynamics.com/
